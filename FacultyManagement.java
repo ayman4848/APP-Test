@@ -97,7 +97,7 @@ public class FacultyManagement {
         }
     }
 
-    // Create table automatically
+    
     static void createTable() throws SQLException {
 
         String sql =
@@ -122,7 +122,7 @@ public class FacultyManagement {
         }
     }
 
-    // Insert faculty details
+    
     static void insertFaculty() throws SQLException {
 
         String sql = "INSERT INTO FACULTY " +
@@ -163,7 +163,7 @@ public class FacultyManagement {
         }
     }
 
-    // Search faculty by ID
+    
     static void searchFaculty() throws SQLException {
 
         String sql =
@@ -196,7 +196,7 @@ public class FacultyManagement {
         }
     }
 
-    // Update designation
+    
     static void updateDesignation() throws SQLException {
 
         String sql =
@@ -224,7 +224,7 @@ public class FacultyManagement {
         }
     }
 
-    // Update salary
+    
     static void updateSalary() throws SQLException {
 
         String sql =
@@ -257,7 +257,7 @@ public class FacultyManagement {
         }
     }
 
-    // Display faculty by department
+
     static void displayByDepartment() throws SQLException {
 
         String sql =
@@ -293,7 +293,7 @@ public class FacultyManagement {
         }
     }
 
-    // Display all faculty
+    
     static void displayAllFaculty() throws SQLException {
 
         String sql =
@@ -319,7 +319,7 @@ public class FacultyManagement {
         }
     }
 
-    // Print one faculty record
+    
     static void printFaculty(ResultSet rs) throws SQLException {
 
         System.out.printf("%-10d %-20s %-15s %-25s %12s%n",
