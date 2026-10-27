@@ -112,8 +112,7 @@ public class FacultyManagement {
             st.executeUpdate(sql);
             System.out.println("FACULTY table created successfully!");
         } catch (SQLException e) {
-            // ORA-00955 means the table or another object
-            // with this name already exists.
+        
             if (e.getErrorCode() == 955) {
                 System.out.println("FACULTY table already exists.");
             } else {
